@@ -1,2 +1,22 @@
+.container {
+  width: 1140px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.splash {
+  height: 700px;
+  width: 1140px;
+  position: relative;
+  background-image: url(/images/background.jpg);
+}
+
+.splash-inner {
+  position: absolute;
+}
+
+.btn-one {
+  border: 1px solid red;
+  text-decoration: none;
+  color: white;
+  border-color: yellow;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQWE7QUNDakI7O0FEQ0E7RUFDRyxhQUFhO0VBQ2IsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQiw2Q0FBNkM7QUNFaEQ7O0FEQ0E7RUFDSSxrQkFBa0I7QUNFdEI7O0FEQ0E7RUFDSSxxQkFBcUI7RUFDckIscUJBQXFCO0VBQ3JCLFlBQVk7RUFDWixvQkFBb0I7QUNFeEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
