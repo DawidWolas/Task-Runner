@@ -1,5 +1,6 @@
 .container{
     width: 1400px;
+    margin-top: 250px;
 }
 /*home*/
 .splash{
@@ -17,8 +18,8 @@
 }
 .btn-one{
     display: inline-block;
-    min-width:199px;
-    padding:20px;
+    min-width:200px;
+    padding: 22px;
     border-radius:5px;
     font-family:'Montserrat', sans-serif;
     font-size:16px;
@@ -31,6 +32,7 @@
     background-position: 100% 0;
     background-size:300%;
     transition: all 1s;
+    
 }
 nav{
     top: 0;
@@ -75,14 +77,13 @@ nav ul li a:hover{
     color: red;
 }
 
-.container{
-    margin-top: 250px;
-}
+
 .page-title{
     font-style: italic;
     font-size: 40px;
     color: white;
     bottom: 50px;
+    width: 1400px;
     
     
 }
@@ -93,6 +94,7 @@ nav ul li a:hover{
    width: 1400px;
    font-family: 'Montserrat';
 }
+/*services*/
 .services{
     text-align: center;
     margin-top: 110px;
@@ -108,4 +110,31 @@ nav ul li a:hover{
     font-style: italic;
     font-size: 20px;
     color: gray;
+}
+.serv-icon{
+    display:inline-block;
+    width: 290px;
+    margin: 60px 20px 5px 20px;
+    font-size: 35px;
+    
+    
+}
+.serv-icon i {
+    color: #fed136;
+    border-radius: 50%;
+    border-color: #fed136;
+    border: 2px solid #fed136;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    
+   
+
+}
+.icon-title{
+    font-size: 20px;
+    text-align: center;
+}
+.serv-icon p{
+    font-size: 17px;
 }
