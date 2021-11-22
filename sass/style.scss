@@ -138,3 +138,39 @@ nav ul li a:hover{
 .serv-icon p{
     font-size: 17px;
 }
+/*portfolio*/
+.portfolio{
+    background-color: #f7f7f7;
+    width: 1400px;
+   
+}
+.card {
+    /* Add shadows to create the "card" effect */
+  
+    
+    max-width: 290px;
+    height: 300px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    justify-content:space-around ;
+    margin: 30px 30px 30px 90px;
+    
+
+  }
+  .card img{
+      max-width: 290px;
+      height: 300px;
+      
+  }
+  /* On mouse-over, add a deeper shadow */
+  
+  
+  /* Add some padding inside the card container */
+ .card-container{
+     background-color: white;
+     height: 60px;
+ }
+ .card-container h4{
+     margin: 0;
+ }
