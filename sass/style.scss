@@ -1,6 +1,9 @@
+body{
+    width: 1400px;
+}
 .container{
     width: 1400px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 /*home*/
 .splash{
@@ -142,14 +145,31 @@ nav ul li a:hover{
 .portfolio{
     background-color: #f7f7f7;
     width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+   
    
 }
+.port-title{
+    font-size: 50px;
+    width: 1100px;
+    text-align: center;
+    margin:80px 0 5px 80px;
+    position: relative;
+}
+.port-subtitle{
+    color: gray;
+    font-style: italic;
+    width: 1100px;
+    text-align: center;
+    margin:  0 30px 50px 80px;
+    line-height: 30px;
+    
+}
 .card {
-    /* Add shadows to create the "card" effect */
-  
+   
     
     max-width: 290px;
-    height: 300px;
     display: inline-block;
     background-color: white;
     text-align: center;
@@ -163,10 +183,7 @@ nav ul li a:hover{
       height: 300px;
       
   }
-  /* On mouse-over, add a deeper shadow */
-  
-  
-  /* Add some padding inside the card container */
+
  .card-container{
      background-color: white;
      height: 60px;
@@ -174,3 +191,44 @@ nav ul li a:hover{
  .card-container h4{
      margin: 0;
  }
+ /*footer*/
+ .page-footer i {
+    font-size: 30px;
+    background: #ff5252;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #0097e6;
+    margin:10px;
+    border-radius: 50%;
+    }
+.page-footer{
+    padding: 20px 0;}
+.page-footer ul{
+    text-align:center;
+    }
+.page-footer li{
+    display:inline-block;
+    font-size:0;}
+.footer-container{
+    font-size: 30px;
+    color: gray;
+    height: 30px;
+    width: 600px;
+   h6{
+       width: 200px;
+       margin:30px 0 0 0;
+   } 
+   ul{
+       display: inline-block;
+       width: 1000px;
+   }
+   
+@media (max-width: 767px){
+    .portfolio .card{
+        flex-direction: column;
+    }
+body{
+    width:800px;
+}
+}
