@@ -147,8 +147,6 @@ nav ul li a:hover{
 .portfolio{
     background-color: #f7f7f7;
     width: 1400px;
-   display: flex;
-   flex-wrap: wrap;
    
    
 }
@@ -211,7 +209,9 @@ nav ul li a:hover{
     display: flex;
     }
 .page-footer ul{
-    text-align:center;
+    text-align:center;       
+    display: inline-block;
+       width: 1000px
     }
 .page-footer li{
     display:inline-block;
@@ -225,18 +225,22 @@ nav ul li a:hover{
        width: 200px;
        margin:30px 0 0 0;
    } 
-   ul{
-       display: inline-block;
-       width: 1000px;
-   }
+ 
    @media (max-width :767px) {
-    .portfolio, .card{
+    .portfolio {
+        background-color: #f7f7f7;
+        width: 40%;
         flex-direction: column;
-        width: 30%;
+        .port-title{
+        width: 40%;
+        margin: 50px 0 20px 80px;
+        padding: 60px;
+        text-align: center;}
      }
      .services{
-         width: 30%;
+         width: 40%;
      }
-    
+      
+     
        
    }
