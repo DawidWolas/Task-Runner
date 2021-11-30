@@ -175,7 +175,7 @@ nav ul li a:hover{
     text-align: center;
     justify-content:space-around ;
     margin: 30px 30px 30px 90px;
-    flex-direction: column;
+  
     
 
   }
@@ -227,20 +227,55 @@ nav ul li a:hover{
    } 
  
    @media (max-width :767px) {
+       body{
+           width: 560px;
+       
     .portfolio {
         background-color: #f7f7f7;
-        width: 40%;
+        width: 560px;
         flex-direction: column;
-        .port-title{
-        width: 40%;
-        margin: 50px 0 20px 80px;
-        padding: 60px;
-        text-align: center;}
-     }
-     .services{
-         width: 40%;
-     }
-      
+        justify-content: space-between;
      
-       
+        .port-title{
+        width: 560px;
+        margin: 80px 0 20px 0;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 30px;
+    } 
+        .port-subtitle{
+            width: 560px;
+            margin: 0 50px 50px 0px;
+            text-align: center;
+            font-size: 15px;
+        } 
+        .card{
+            text-align: center;
+            margin: 30px 30px 30px 130px;
+            flex-direction: column;
+           
+        }
+    } 
+     .services{
+         width: 560px;
+     }
+     .page-footer{
+         width: 519px;
+     }
+     .splash{
+         background-image: url(/images/background-mobile.jpg);
+        object-fit:contain;
+        width: 560px;
+        height: 280px;
+        .page-title{
+            font-size: 20px;
+            color: black;
+            width: 560px;
+        }
+        .splash-inner{
+             width: 560px;
+}
+    }
+}
+
    }
